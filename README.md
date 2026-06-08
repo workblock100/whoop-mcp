@@ -117,3 +117,11 @@ For local OAuth testing, use a tunnel (cloudflared, ngrok) so Whoop can redirect
 - The MCP secret in the URL path is the only thing protecting your Whoop data from the public internet. Treat it like a password. If leaked, rotate `MCP_SECRET` (`fly secrets set MCP_SECRET=...; fly deploy`) and update the URL in Claude.
 - `tokens.json` (with mode 0600) holds your live refresh token. The fly.io persistent volume keeps it across restarts.
 - This is a **single-tenant** server — one Whoop account per deployment. Don't share the URL.
+
+
+---
+
+## 💼 Hire the author
+Built by **Elijah** — I build custom MCP servers, Python automations, web scrapers, and AI chatbots. Fixed-price from $85, working sample before you pay.
+- **Upwork:** https://www.upwork.com/freelancers/~01818ac5bd67ef7935
+- **Email:** workblock100@gmail.com
